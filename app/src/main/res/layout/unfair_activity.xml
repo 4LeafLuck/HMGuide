@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/unfWisdomBtn"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="353dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timeTakenBox"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:text="Answer" />
+
+    <CheckBox
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/timeTakenBox"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="266dp"
+        android:layout_width="270dp"
+        android:layout_height="37dp"
+        android:text="Time was taken from the beggining of their class"
+        android:layout_below="@+id/diffClassBox"
+        android:layout_alignLeft="@+id/diffClassBox"
+        android:layout_alignStart="@+id/diffClassBox"
+        android:layout_marginTop="12dp" />
+
+    <CheckBox
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/diffClassBox"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="218dp"
+        android:layout_width="270dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="8dp"
+        android:text="The class is a different section"
+        android:layout_below="@+id/extraTimeBox"
+        android:layout_alignLeft="@+id/extraTimeBox"
+        android:layout_alignStart="@+id/extraTimeBox" />
+
+    <CheckBox
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/extraTimeBox"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="164dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView5"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="20dp"
+        android:text="There are people who need extra time" />
+
+    <TextView
+        android:id="@+id/unfairProbTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:text="I can't believe it!  My teacher let the last class work through break!  We barely have 45 minutes and they get an hour?"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/unfairProbTitle"
+        android:layout_centerHorizontal="true"
+        android:text="Well, while on the surface this may look bad, let's think this through."
+        android:textAlignment="center" />
+</RelativeLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/brthInTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Breathe In"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="168dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="44dp" />
+
+    <TextView
+        android:id="@+id/brthInCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:textSize="18sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/textView34"
+        android:layout_marginTop="168dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/brthOutCount"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp" />
+
+    <TextView
+        android:id="@+id/brthOutTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Breathe Out"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="44dp"
+        app:layout_constraintBottom_toBottomOf="@+id/startBreath"
+        android:layout_marginTop="104dp"
+        app:layout_constraintTop_toBottomOf="@+id/brthInTxt"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="106dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="44dp" />
+
+    <TextView
+        android:id="@+id/brthOutCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7"
+        android:textSize="18sp"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="61dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="186dp"
+        android:layout_marginRight="61dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4-7 Breathing Excercise"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="73dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/textView34" />
+
+    <Button
+        android:id="@+id/startBreath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Begin"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="75dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.28" />
+
+    <Button
+        android:id="@+id/resetBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginEnd="73dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBaseline_toBaselineOf="@+id/startBreath"
+        tools:layout_constraintBaseline_creator="1"
+        android:layout_marginRight="73dp" />
+</android.support.constraint.ConstraintLayout>

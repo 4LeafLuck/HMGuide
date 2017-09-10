@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/textView21"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="398dp"
+        android:layout_width="367dp"
+        android:layout_height="28dp"
+        android:text="3. Everyone has the right to say 'no'"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/textView20"
+        android:layout_alignLeft="@+id/textView19"
+        android:layout_alignStart="@+id/textView19" />
+
+    <TextView
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/textView22"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="426dp"
+        android:layout_width="349dp"
+        android:layout_height="75dp"
+        android:text="Grades are a private thing for some people- no one is obligated to share them, even if you offer yours up.  On the flipside, feel free to say no as well.  If the person asking keeps pushing, then you can just walk away"
+        android:textAlignment="viewStart"
+        android:layout_below="@+id/textView21"
+        android:layout_alignLeft="@+id/textView18"
+        android:layout_alignStart="@+id/textView18" />
+
+    <TextView
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/textView20"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="316dp"
+        android:layout_width="349dp"
+        android:layout_height="75dp"
+        android:text="Seriously, just focus on how well you're doing.  Everyone has different skills and different areas of difficulty, so you can't rate your intelligence by someone else's grades"
+        android:textAlignment="viewStart"
+        android:layout_below="@+id/textView19"
+        android:layout_alignRight="@+id/textView19"
+        android:layout_alignEnd="@+id/textView19" />
+
+    <TextView
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/textView19"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="267dp"
+        android:layout_width="366dp"
+        android:layout_height="49dp"
+        android:text="2. Other people's grades shouldn't matter to you, either"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/textView18"
+        android:layout_alignRight="@+id/textView18"
+        android:layout_alignEnd="@+id/textView18" />
+
+    <TextView
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/textView16"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="102dp"
+        android:layout_width="368dp"
+        android:layout_height="35dp"
+        android:text="While this is an awkward situation, a lot of this can be solved if you keep a few things in mind"
+        android:textAlignment="center"
+        android:layout_below="@+id/textView15"
+        android:layout_alignLeft="@+id/textView15"
+        android:layout_alignStart="@+id/textView15" />
+
+    <TextView
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/textView17"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="153dp"
+        android:layout_width="366dp"
+        android:layout_height="49dp"
+        android:text="1. People are asking for their own progress, not to examine you"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/textView16"
+        android:layout_alignRight="@+id/textView16"
+        android:layout_alignEnd="@+id/textView16" />
+
+    <TextView
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/textView18"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="202dp"
+        android:layout_width="350dp"
+        android:layout_height="56dp"
+        android:text="To be completely honest, no one really cares what your grade is, just how it compares to theirs.  So, they're not looking to take you down a peg"
+        android:textAlignment="viewStart"
+        android:layout_below="@+id/textView17"
+        android:layout_alignRight="@+id/textView17"
+        android:layout_alignEnd="@+id/textView17" />
+
+    <TextView
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/textView15"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="Ah geez!  I really don't want to share my grade this time-- but no one shared theirs either.  How can I know how I am doing?  Will I be judged for my grades?"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
